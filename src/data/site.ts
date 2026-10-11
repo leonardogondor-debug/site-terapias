@@ -2,7 +2,7 @@
 // Troque estes dados pelos dados reais da empresa.
 
 export const site = {
-  nome: "Espaço Equilíbrio",
+  nome: "Pausa Terapias",
   slogan: "Terapias holísticas para corpo, mente e alma",
   descricao:
     "Terapias holísticas e integrativas com acolhimento e profissionalismo. Atendimento presencial e online. Agende sua sessão.",
