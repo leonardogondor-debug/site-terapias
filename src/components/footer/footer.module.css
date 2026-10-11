@@ -1,7 +1,6 @@
 /* Estilos do Footer */
 
 .footer {
-  text-align: center;
   padding: 3.5rem 0 1.5rem;
   background: var(--verde-escuro);
   color: #dfe8e2;
@@ -50,7 +49,7 @@
   }
 }
 @media (max-width: 520px) {
-  .grade {
-    grid-template-columns: 1fr;
+  .footer {
+     text-align: center;
   }
 }
