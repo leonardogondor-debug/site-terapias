@@ -6,14 +6,14 @@ export const site = {
   slogan: "Terapias holísticas para corpo, mente e alma",
   descricao:
     "Terapias holísticas e integrativas com acolhimento e profissionalismo. Atendimento presencial e online. Agende sua sessão.",
-  // URL pública (definida no .env). Usada em SEO, sitemap e robots.
+  // URL pública (definida no .env).
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-  // WhatsApp no formato internacional, sem + nem espaços (55 + DDD + número)
+  // WhatsApp 
   whatsapp: "5511999999999",
   whatsappMensagem: "Olá! Gostaria de saber mais sobre as terapias.",
-  email: "contato@espacoequilibrio.com.br",
+  email: "exemplo@gmail.com",
   telefone: "(11) 99999-9999",
-  endereco: "Rua das Flores, 123 - São Paulo/SP",
+  endereco: "Rua Exemplo, 123 - São Paulo/SP",
   // Link do checkout (Mercado Pago, Stripe Payment Link etc.)
   pagamentoUrl: process.env.NEXT_PUBLIC_PAGAMENTO_URL ?? "",
   redes: [
