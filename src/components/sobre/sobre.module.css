@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1.2fr;
   gap: 3.5rem;
   align-items: center;
+  text-align: center;
 }
 
 .foto {
