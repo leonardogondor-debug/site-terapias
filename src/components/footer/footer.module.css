@@ -1,6 +1,7 @@
 /* Estilos do Footer */
 
 .footer {
+  text-align: center;
   padding: 3.5rem 0 1.5rem;
   background: var(--verde-escuro);
   color: #dfe8e2;
