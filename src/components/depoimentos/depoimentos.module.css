@@ -1,0 +1,41 @@
+/* Estilos dos Depoimentos */
+
+.fundo {
+  background: var(--verde-claro);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  margin: 0;
+  padding: 2rem;
+  background: var(--branco);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+
+.aspas {
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--dourado);
+}
+
+.card blockquote {
+  margin: 0 0 1.2rem;
+  font-style: italic;
+  color: var(--texto-suave);
+}
+
+.card figcaption {
+  display: flex;
+  flex-direction: column;
+}
+.card figcaption span {
+  font-size: 0.9rem;
+  color: var(--verde);
+}

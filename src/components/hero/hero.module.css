@@ -1,0 +1,59 @@
+/* Estilos do Hero */
+
+.hero {
+  padding: 6rem 0 5rem;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(201, 166, 107, 0.25), transparent 40%),
+    linear-gradient(160deg, var(--verde-claro), var(--areia));
+}
+
+.conteudo {
+  max-width: 760px;
+  text-align: center;
+}
+
+.selo {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 999px;
+  background: var(--branco);
+  color: var(--verde);
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: var(--sombra);
+}
+
+.conteudo h1 {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+}
+
+.texto {
+  font-size: 1.15rem;
+  color: var(--texto-suave);
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.numeros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 2.5rem 0 0;
+  color: var(--texto-suave);
+}
+.numeros strong {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 1.6rem;
+  color: var(--verde-escuro);
+}

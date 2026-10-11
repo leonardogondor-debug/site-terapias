@@ -1,0 +1,64 @@
+/* Estilos compartilhados pelas páginas (cabeçalho interno, grades e artigo) */
+
+.topo {
+  padding: 4rem 0 2rem;
+  text-align: center;
+  background: linear-gradient(160deg, var(--verde-claro), var(--areia));
+}
+.topo h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+.topo p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--texto-suave);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.centro {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+/* Layout de duas colunas da página de contato */
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 2rem;
+  align-items: start;
+}
+.info {
+  padding: 2rem;
+  background: var(--branco);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+.info ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+/* Artigo do blog */
+.artigo {
+  max-width: 720px;
+}
+.artigo time {
+  color: var(--dourado);
+  font-weight: 600;
+}
+.artigo p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 820px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,27 @@
+/* Estilos da Chamada para Ação */
+
+.faixa {
+  padding: 4rem 0;
+  background: var(--verde-escuro);
+  text-align: center;
+  color: var(--branco);
+}
+
+.conteudo h2 {
+  color: var(--branco);
+}
+
+.conteudo p {
+  opacity: 0.9;
+}
+
+/* Botão claro para contrastar com o fundo verde */
+.botao {
+  background: var(--dourado);
+  border-color: var(--dourado);
+  color: var(--verde-escuro);
+}
+.botao:hover {
+  background: var(--branco);
+  border-color: var(--branco);
+}

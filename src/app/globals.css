@@ -1,0 +1,94 @@
+/* Estilos globais: variáveis de cor, reset e utilitários.
+   Os estilos de cada componente ficam nos seus próprios arquivos .module.css */
+
+:root {
+  --verde: #5f7f6b;
+  --verde-escuro: #3f5a4a;
+  --verde-claro: #e8efe9;
+  --areia: #f7f3ec;
+  --dourado: #c9a66b;
+  --texto: #2f3a33;
+  --texto-suave: #66726b;
+  --branco: #ffffff;
+  --raio: 16px;
+  --sombra: 0 8px 30px rgba(63, 90, 74, 0.1);
+  --largura: 1140px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  color: var(--texto);
+  background: var(--areia);
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--verde-escuro);
+  line-height: 1.2;
+  margin: 0 0 0.5em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Container centralizado reutilizado em todas as seções */
+.container {
+  width: min(100% - 2rem, var(--largura));
+  margin-inline: auto;
+}
+
+/* Espaçamento vertical padrão das seções */
+.secao {
+  padding: 4.5rem 0;
+}
+
+/* Botões reutilizáveis */
+.botao {
+  display: inline-block;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  border: 2px solid var(--verde);
+  background: var(--verde);
+  color: var(--branco);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, transform 0.2s;
+}
+.botao:hover {
+  background: var(--verde-escuro);
+  transform: translateY(-2px);
+}
+.botaoContorno {
+  background: transparent;
+  color: var(--verde-escuro);
+}
+.botaoContorno:hover {
+  background: var(--verde-claro);
+}
+
+/* Acessibilidade: foco visível */
+:focus-visible {
+  outline: 3px solid var(--dourado);
+  outline-offset: 2px;
+}

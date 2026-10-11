@@ -1,0 +1,31 @@
+/* Estilos do CardPost */
+
+.card {
+  padding: 2rem;
+  background: var(--branco);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  transition: transform 0.25s;
+}
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card time {
+  font-size: 0.85rem;
+  color: var(--dourado);
+  font-weight: 600;
+}
+
+.card h3 {
+  margin-top: 0.4rem;
+}
+
+.card p {
+  color: var(--texto-suave);
+}
+
+.link {
+  font-weight: 600;
+  color: var(--verde);
+}
